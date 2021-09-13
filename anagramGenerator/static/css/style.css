@@ -1,0 +1,38 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+  background-color: #192734;
+}
+h1, h2, h3, h4, h5, h6{
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 500;
+  text-align: center;
+}
+.lists{
+  list-style-type: none;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+	font-weight: 100;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+}
+#add-form{
+	display: block;
+	max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid white;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: #192734;
+  margin-bottom: 10px;
+}
+#submit-button{
+  color: white;
+  background-color: #192734;
+  border: none;
+  float: right;
+  cursor: pointer;
+}
